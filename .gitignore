@@ -1,0 +1,111 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+
+# Virtual Environments
+venv/
+env/
+ENV/
+.venv/
+.env/
+virtualenv/
+
+# Environment Variables & Secrets
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+secrets.json
+
+# IDE & Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+.project
+.pydevproject
+.settings/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# Data & Documents
+data/documents/*
+!data/documents/.gitkeep
+uploads/
+*.pdf
+*.docx
+*.doc
+*.txt
+*.md
+!README.md
+!requirements.txt
+*.html
+*.htm
+*.csv
+*.json
+!package.json
+!tsconfig.json
+
+# Vector Store & Database
+*.db
+*.sqlite
+*.sqlite3
+chroma_db/
+qdrant_storage/
+vector_store/
+pgvector_data/
+
+# Logs & Temporary Files
+*.log
+logs/
+temp/
+tmp/
+*.tmp
+*.bak
+*.swp
+*.cache
+
+# Streamlit
+.streamlit/secrets.toml
+.streamlit/config.toml
+
+# OS-specific
+Thumbs.db
+Desktop.ini
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Misc
+*.orig
+.vscode-test/
+node_modules/

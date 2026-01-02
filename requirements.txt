@@ -1,0 +1,11 @@
+openai
+pgvector
+psycopg2-binary
+streamlit
+pypdf
+python-docx
+beautifulsoup4
+python-dotenv
+tiktoken
+numpy
+pandas

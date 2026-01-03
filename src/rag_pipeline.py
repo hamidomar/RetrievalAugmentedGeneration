@@ -23,6 +23,11 @@ class RAGPipeline:
 Use the provided context to answer the user's question. 
 If the answer is not in the context, say you don't know.
 Cite your sources using the format [Source: filename].
+
+IMPORTANT: When writing mathematical formulas or expressions, you MUST use LaTeX formatting:
+- Use single dollar signs for inline math: $E=mc^2$
+- Use double dollar signs for block math: $$ \sum_{i=1}^n x_i $$
+- Do NOT use other delimiters like \( \) or \[ \].
 """
         
         messages = [
